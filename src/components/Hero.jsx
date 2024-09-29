@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../contacts/index";
-import profilePic from "../assets/KevinRushProfile.png";
+import KevinRushProfile from "../assets/KevinRushProfile.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -49,7 +49,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
+              src={KevinRushProfile}
               alt="Irfan Khan"
             />
           </div>
