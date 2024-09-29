@@ -1,9 +1,7 @@
 import { BiLogoPostgresql } from "react-icons/bi";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
+import { FaLaravel, FaNodeJs, FaPhp } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+import { SiMongodb, SiTailwindcss } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVarients = (duration) => ({
@@ -49,7 +47,7 @@ const Technologies = () => {
           animate="animate"
           className="flex rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl " />
+          <FaLaravel className="text-7xl " />
         </motion.div>
         <motion.div
           variants={iconVarients(5)}
@@ -65,7 +63,7 @@ const Technologies = () => {
           animate="animate"
           className="flex rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiRedis className="text-7xl text-red-700" />
+          <FaPhp className="text-7xl text-red-700" />
         </motion.div>
         <motion.div
           variants={iconVarients(6)}
@@ -82,6 +80,14 @@ const Technologies = () => {
           className="flex rounded-2xl border-4 border-neutral-800 p-4"
         >
           <BiLogoPostgresql className="text-7xl text-sky-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVarients(2)}
+          initial="initial"
+          animate="animate"
+          className="flex rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTailwindcss className="text-7xl text-sky-700" />
         </motion.div>
       </motion.div>
     </div>
