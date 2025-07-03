@@ -68,7 +68,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "D-317 Dabua Colony N.I.T Faridabad",
-  phoneNo: "+91 9205875078",
+  phoneNo: "+91 7550577710, 9205875078",
   email: "ir06162@gmail.com",
 };
